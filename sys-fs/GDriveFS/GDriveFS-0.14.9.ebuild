@@ -15,7 +15,7 @@ SRC_URI="https://github.com/dsoprea/GDriveFS/archive/${PV}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="-*"
 IUSE="python"
 
 DEPEND=">=dev-python/google-api-python-client-1.2[${PYTHON_USEDEP}]
